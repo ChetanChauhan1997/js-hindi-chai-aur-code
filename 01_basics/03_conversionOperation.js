@@ -76,6 +76,16 @@ console.log((3+4) * 5 % 3);  // 2
 console.log( 3+ 4 * 5 % 3);  // 2
 
 
+// General Tip:
+//JavaScript follows operator precedence and left-to-right associativity. The order of operations is:
+// To solve similar problems:
+
+// Remember operator precedence: () > *, /, % > +, -
+
+// Evaluate step-by-step.
+
+// Use parentheses if needed for clarity.
+
 
 
 
