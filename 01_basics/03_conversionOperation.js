@@ -33,8 +33,8 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 let someNumber = undefined;
 let stringNumber = String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
 
 // String Conversion
@@ -44,7 +44,41 @@ console.log(typeof stringNumber);
 // undefined = "undefined"
 
 
-// Class 6 done 
+/******************  Operations         *********************** */
+
+
+let value = 3 ;
+let negValue = -value;
+//console.log(negValue);  // -3
+
+// console.log(2+2);  sum
+// console.log(2-2);  subtracion
+// console.log(2*2);  multiply
+// console.log(2**2); power of 2
+// console.log(2**3);  power of 3
+// console.log(4/2); divide
+// console.log(7%2); remainder
+
+
+let str1 = "Hello"
+let str2 = " Hitesh"
+
+let str3 = str1 + str2;
+console.log(str3);
+
+console.log("1" + 2);  // 12
+console.log(1 + "2");  //12
+console.log("1" + "2");  //12
+console.log("1" + 2 + 2);  // 122
+console.log(1 + 2 + "2");  // 32
+
+console.log((3+4) * 5 % 3);  // 2
+console.log( 3+ 4 * 5 % 3);  // 2
+
+
+
+
+
 
 
 
