@@ -44,6 +44,8 @@ console.log(typeof stringNumber);
 // undefined = "undefined"
 
 
+// Class 6 done 
+
 
 
 
