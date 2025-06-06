@@ -64,16 +64,56 @@ let str1 = "Hello"
 let str2 = " Hitesh"
 
 let str3 = str1 + str2;
-console.log(str3);
+//console.log(str3);
 
-console.log("1" + 2);  // 12
-console.log(1 + "2");  //12
-console.log("1" + "2");  //12
-console.log("1" + 2 + 2);  // 122
-console.log(1 + 2 + "2");  // 32
+//console.log("1" + 2);  // 12
+//console.log(1 + "2");  //12
+//console.log("1" + "2");  //12
+//console.log("1" + 2 + 2);  // 122
+//console.log(1 + 2 + "2");  // 32
 
-console.log((3+4) * 5 % 3);  // 2
-console.log( 3+ 4 * 5 % 3);  // 2
+//console.log((3+4) * 5 % 3);  // 2
+//console.log( 3+ 4 * 5 % 3);  // 5
+//console.log( 3 + 4 * 5 % 6 / 3 - 5);  //-1.333333
+
+// console.log(+true);
+// console.log(+"");
+
+// let num1, num2, num3 ;
+
+// num1 = num2 = num3 = 2 + 2
+
+let gameCounter1 = 100;
+let newGameCounter1 = gameCounter1++;
+
+let gameCounter2 = 100;
+let newGameCounter2 = ++gameCounter2
+// console.log(gameCounter1);
+// console.log(newGameCounter1);
+// console.log(gameCounter2);
+// console.log(newGameCounter2);
+
+
+// Prefix and postfix 
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+
+
+
+
+
+
 
 
 // General Tip:
