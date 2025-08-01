@@ -50,3 +50,12 @@ const myFunction = function(){
     
 }
 
+
+
+
+/******************************************************************************* */
+
+// Stack (Primitive Type k liye use hoti h)and Heap Memory(Non-Primitive)
+
+
+let myYoutubeName = "shivachauhandotcom";
