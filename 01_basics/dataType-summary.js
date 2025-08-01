@@ -17,7 +17,7 @@ let userEmail ;
 const id = Symbol('123');
 const anotherID = Symbol('123');
 
-console.log(id === anotherID);
+// console.log(id === anotherID);
 
 const bigNumber = 2432141242314244n;
 
@@ -53,9 +53,31 @@ const myFunction = function(){
 
 
 
-/******************************************************************************* */
 
 // Stack (Primitive Type k liye use hoti h)and Heap Memory(Non-Primitive)
 
 
 let myYoutubeName = "shivachauhandotcom";
+
+let anothername = myYoutubeName;
+anothername = "Chaiaurode"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+
+// Heap Example
+
+let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+let userTwo = userOne;
+
+userTwo.email = "userTwo@gmail.com";
+
+console.log(userTwo.email);
+console.log(userOne.email);
+
+
+
